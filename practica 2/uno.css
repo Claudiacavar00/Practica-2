@@ -1,0 +1,51 @@
+@import url("reset.css");
+
+:root{
+    --bg-claro: #00ff0050;
+    --bg-oscuro: rgba(255,0,0,0.5);  /* a=color alfa */
+    
+}
+
+body{
+    background-color: var(--bg-claro);
+     /*opacity: 0.9;*/ 
+     width: 100vw;
+     height: 100vh;
+}
+
+header{
+    height: 20%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+
+header  div{
+    width: 50%;
+    height: 50%;
+    background-color: var(--bg-oscuro);
+    /*margin: 0 auto;*/
+    position: absolute;
+    top:25%;
+    left: 25%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--bg-oscuro);
+    width: 100vw;
+    height: 10vh;
+}
+
+footer > div {
+    text-align: center; 
+   
+}
